@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color.fromARGB(255, 46, 11, 126),
         body: SafeArea(
           child: Center(
             child: SingleChildScrollView(
